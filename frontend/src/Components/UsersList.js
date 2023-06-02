@@ -56,7 +56,7 @@ export default function UserList(props) {
           borderWidth: 2,
         }}
       >
-        {userData.length ? (
+        {userData?.length ? (
           userData.map((data) => <UserItem user={data} />)
         ) : (
           <Typography variant="h6" align="center" color="#DDE6ED">
