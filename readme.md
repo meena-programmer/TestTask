@@ -12,9 +12,9 @@ Backend and frontend connected
 
 # Installation
 ## In Backend
-npm init -y
-npm install
-npm start
+* npm init -y
+* npm install
+* npm start
 
 -- graphql starts run in port 4000
 
@@ -37,6 +37,8 @@ name,
 email
 }
 }
+
+data mutation:
 
 mutation{
 createUser(name:"abc",email:"abc@gmail.com",password:"abc"){
