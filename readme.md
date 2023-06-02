@@ -1,14 +1,13 @@
 # Backend
 
-contains node js task, mongodb, graphql
-from graphql data manipulation and fetching done with mongodb database
+* contains node js task, mongodb, graphql
+* graphql data manipulation and fetching done with mongodb database
 
 # Front end 
 
-Component folder contains all files 
-Data fetching and user registration to database with graphql
-
-Backend and frontend connected
+* Component folder contains all files 
+* Data fetching and user registration to mongodb database with graphql query
+* Backend and frontend has connected
 
 # Installation
 ## In Backend
